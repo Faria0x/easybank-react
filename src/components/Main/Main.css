@@ -1,0 +1,78 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.info h6 {
+    font-size: 54px;
+    margin-top: -20vh;
+}
+
+.info p{
+    font-size: 20px;
+    color: var(--grayish-blue);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+
+
+.image {
+    background-image: url("../../images/bg-intro-desktop.svg");
+    background-position: right;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -20%;
+    margin-top: -30vh;
+    width: 70%;
+}
+.image img {
+    z-index: 900;
+    position: relative;
+    margin-top: 20vh;
+    padding-left: 16vw;
+}
+
+
+
+@media (max-width: 760px) {
+
+
+    .image {
+        display: none;
+    }
+
+    .info p {
+        margin: 0;
+        height: 30vh;
+    }
+
+    .info h6 {
+        margin-top: 38px;
+        font-size: 48px;
+        margin-bottom: 18px;
+    }
+    
+    .info button {
+        margin-bottom: 32px;
+    }
+    
+
+
+}
+

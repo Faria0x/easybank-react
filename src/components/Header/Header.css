@@ -1,0 +1,33 @@
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    z-index: 999;
+    background-color: var(--white);
+    position: relative;
+}
+header div {
+    padding: 16px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 16px;
+    color: var(--grayish-blue);
+    cursor: pointer;
+}
+
+
+@media (max-width: 760px) {
+    ul {
+        display: none;
+    }
+}
+
